@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+  }
+  
+  video {
+    position: fixed;
+  }
+  
+  div {
+    position: absolute;
+    min-width: 350px;
+    top: 15%;
+    left: 35%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 40px;
+  }
+  
+  input {
+    width: 300px;
+    min-width: 100px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+
+  input:focus {
+    outline: none;
+    color: white;
+    background-color: rgba(69, 131, 181, 0.35);
+  }
+  
+  button {
+    background-color: slateblue;
+    color: white;
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  
+  
